@@ -1,0 +1,23 @@
+1.后端项目模块名称的修改   
+	
+	a.全局搜索模块名称替换新名称
+	b.maven重新导入
+	c.关闭idea重新打开运行项目
+
+2.后端项目包名的修改
+	
+	a.右键包名 rename package 即可
+
+3.前端权限控制写法    v-if="isAuth('user:add')" 或者 v-permission="permission.edit"（permission.edit定义在js中）
+
+4.前端项目提交git命令：在项目根目录下执行 
+
+	a.查看项目文件状态：git status
+
+	b.查看修改内容：git diff xxx.vue
+
+	c.添加到git：git add xx.vue
+
+	d.查看项目文件状态：git status
+
+	e.提交至github：git commit -m "modify xxx.vue"
